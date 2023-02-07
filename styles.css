@@ -77,3 +77,29 @@ input:hover {
 	display: flex;
 	gap: 30px;
 }
+@media only screen and (max-width: 768px) {
+	.flex {
+		background-color: rgb(252, 220, 220);
+		height: 100vh;
+	}
+	h1 {
+		text-align: center;
+	}
+	input {
+		width: 100%;
+		display: block;
+		padding: 20px 130px;
+	}
+	button {
+		margin: 30px;
+	}
+
+	.form {
+		text-align: center;
+	}
+
+	.dashboard {
+		height: 40vh;
+		width: 80vw;
+	}
+}
